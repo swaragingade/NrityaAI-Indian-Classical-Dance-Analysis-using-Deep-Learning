@@ -1,0 +1,14 @@
+=== NrityaAI Evaluation Results ===
+
+               precision    recall  f1-score   support
+
+bharatanatyam     0.9930    1.0000    0.9965      4553
+       kathak     0.9995    0.9921    0.9957      3775
+       odissi     0.9980    0.9967    0.9974      3024
+
+     accuracy                         0.9965     11352
+    macro avg     0.9968    0.9962    0.9965     11352
+ weighted avg     0.9965    0.9965    0.9965     11352
+
+Macro F1  : 0.9965
+Accuracy  : 0.9965

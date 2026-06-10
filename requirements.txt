@@ -1,0 +1,38 @@
+# NrityaAI — Python 3.10+ compatible dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core ML / DL ─────────────────────────────────────────────────────────────
+# TF 2.20+ ships with Keras 3.x as a separate package
+tensorflow==2.20.0
+keras==3.10.0
+
+# ── Pose estimation ───────────────────────────────────────────────────────────
+mediapipe==0.10.32
+
+# ── Computer vision ───────────────────────────────────────────────────────────
+opencv-python==4.10.0.84
+
+# ── Data science ──────────────────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# ── API backend ───────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.12
+pydantic==2.9.2
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+streamlit==1.39.0
+streamlit-webrtc==0.47.6
+
+# ── Dataset collection ────────────────────────────────────────────────────────
+yt-dlp==2024.10.7
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+requests==2.32.3
+tqdm==4.66.5
+Pillow==10.4.0

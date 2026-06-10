@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Data — raw videos and keypoint CSVs (too large for GitHub)
+data/raw/
+data/keypoints/
+
+# Model weights (too large for GitHub)
+models/best_model.keras
+models/best_model.h5
+models/demo_model.keras
+
+# MediaPipe task file
+models/pose_landmarker.task
+
+# Streamlit
+.streamlit/
+
+# Reference pose images (keep only JSONs)
+data/reference_poses/**/*.jpg
+data/reference_poses/**/*.jpeg
+data/reference_poses/**/*.png
+data/reference_poses/Ardhamandalam Augmented/
+data/reference_poses/Bramha Augmented/
+data/reference_poses/Garuda Augmented/
+data/reference_poses/Muzhumandi Augmented/
+data/reference_poses/Nagabandham Augmented/
+data/reference_poses/Nataraj Augmented/
+data/reference_poses/Prenkhana Augmented/
+data/reference_poses/Samapadam Augmented/
+data/reference_poses/Swastika Augmented/
+
+# cookies / yt-dlp
+cookies.txt
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & temp
+*.log
+/tmp/
+
+# IDE
+.vscode/
+.cursor/
