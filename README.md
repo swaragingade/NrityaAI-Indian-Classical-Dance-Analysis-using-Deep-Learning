@@ -251,17 +251,6 @@ Input Shape: (60, 33, 4)
 
 ---
 
-## 👩‍💻 Contributors
-
-| Name | Roll No. | GitHub |
-|---|---|---|
-| Swara Gingade | 1RV22CD059 | [@swaragingade](https://github.com/swaragingade) |
-| Anoushka Dwivedi | 1RV22CD008 | [@Anoushka2910](https://github.com/Anoushka2910) |
-
-**Guide:** Dr. Soumya A, Professor & Program Coordinator (Data Science), Dept. of CSE, RV College of Engineering, Bengaluru
-
----
-
 ## 📄 License
 
 MIT
